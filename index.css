@@ -1,0 +1,140 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+
+    /* FONTS */;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* ICONS FONT */
+
+a i {
+    font-size: 24px;
+    color: rgb(0, 119, 255);
+    margin-right: 5px;
+    transition: 0.2s;
+}
+
+/* WRAPPER */
+
+.wrapper {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* HEADER */
+
+.header {
+    background-color: crimson;
+    box-shadow: 0px 0px 0px 3px #f3f3f3;
+}
+
+
+.headerInner {
+    padding-top: 5px;
+    padding-left: 15px;
+    text-align: center;
+}
+
+#logoText {
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+#logoTextHyper {
+    text-decoration: none;
+}
+
+/* NAV SECTION */
+
+.navSection {
+    padding-top: 15px;
+    text-align: center;
+    background-color: #f9f9f9;
+    padding-bottom: 15px;
+}  
+
+.contactsBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+#contactsText {
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    color: #313131;
+}
+
+.navText {
+    text-decoration: none;
+    color: #313131;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 0px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.navText:hover {
+    background-color: rgb(0, 119, 255);
+    transition: 0.2s;
+}
+
+/* MAIN */
+
+.mainInner {
+    padding-left: 15px;
+    padding-top: 20px;
+}
+
+#mainTitle {
+    font-size: 32px;
+    color: #313131;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: crimson;
+    padding: 10px;
+    color: #fff;
+    position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.footerInner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logoFooter {
+    text-decoration: none;
+}
+
+#logoFooterText {
+    color: #fff;
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.contactsFooterBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
