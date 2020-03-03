@@ -108,3 +108,21 @@ a i {
         transform: scale(1);
     }
 }
+
+@media screen and (max-width: 702px) {
+    .item {
+        display: block;
+        margin-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 361px) {
+    a i {
+        font-size: 18px;
+    }
+
+    .item {
+        padding: 0px 10px;
+        padding-bottom: 10px;
+    }
+}
